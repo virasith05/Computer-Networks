@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(145deg, #0f2027, #203a43, #2c5364);
+  color: #f1f1f1;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.8rem;
+  color: #00d1ff;
+}
+
+.question-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.question {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+}
+
+.question h2 {
+  color: #00e6ff;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.question p {
+  font-size: 1rem;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+.question {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.question:hover {
+  transform: scale(1.02);
+}
+
+
+.btn-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn {
+  background: #00d1ff;
+  padding: 12px 25px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  box-shadow: 0 0 15px #00e6ff;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00aaff;
+  color: #fff;
+}
