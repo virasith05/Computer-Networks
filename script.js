@@ -9,7 +9,7 @@ let interval = setInterval(() => {
     loaderScreen.style.display = 'none';
     mainContent.classList.remove('hidden');
   } else {
-    width++;
+    width += 2; // increase by 2% instead of 1
     progressBar.style.width = width + '%';
   }
-}, 30);
+}, 20); // reduce interval from 30ms to 20ms
