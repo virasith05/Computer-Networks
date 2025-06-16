@@ -5,24 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Game Centre - The Byte Riders</title>
   <link rel="stylesheet" href="answers_q3.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <h1>OSPF Using Dijkstra's Shortest Path Algorithm</h1>
-  </header>
+  <div class="toggle-btn">
+    <i class="fas fa-bars"></i>
+  </div>
 
-  <div class="resources">
-
-    <div class="resource" onclick="downloadFile('Q4/Report.pdf')">
-      🧩 Report
+  <nav class="sidebar">
+    <div class="logo">
+      <h2>The Byte Riders</h2>
+      <div class="close-btn">
+        <i class="fas fa-times"></i>
+      </div>
     </div>
+    <ul class="nav-links">
+      <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="assignment.html"><i class="fas fa-tasks"></i> Assignments</a></li>
+      <li><a href="answers_q1.html"><i class="fas fa-file-alt"></i> Q1 Answers</a></li>
+      <li><a href="answers_q2.html"><i class="fas fa-file-alt"></i> Q2 Answers</a></li>
+      <li><a href="answers_q3.html"><i class="fas fa-file-alt"></i> Q3 Answers</a></li>
+      <li><a href="answers_q4.html" class="active"><i class="fas fa-file-alt"></i> Q4 Answers</a></li>
+    </ul>
+  </nav>
 
-    <div class="resource" onclick="downloadFile('Q4/OSPF.pkt')">
-      🧩 Cisco Packet Tracer File
-    </div>
-    
-    <div class="resource" onclick="downloadFile('Q4/PacketTracer_OSPF.gif')">
-      🧩 Video File
+  <div class="main-content">
+    <header>
+      <h1>OSPF Using Dijkstra's Shortest Path Algorithm</h1>
+    </header>
+
+    <div class="resources">
+
+      <div class="resource" onclick="downloadFile('Q4/Report.pdf')">
+        🧩 Report
+      </div>
+
+      <div class="resource" onclick="downloadFile('Q4/OSPF.pkt')">
+        🧩 Cisco Packet Tracer File
+      </div>
+      
+      <div class="resource" onclick="downloadFile('Q4/PacketTracer_OSPF.gif')">
+        🧩 Video File
+      </div>
     </div>
   </div>
 
